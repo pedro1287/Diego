@@ -4,14 +4,14 @@ python-telegram-bot
 bs4 
 user_agent 
 ping3 
-python 3.12
+python==3.12
 tcping 
 pyping  
 requests_toolbelt 
 telethon 
 tenacity
-pyrogram 2.0.106
+pyrogram==2.0.106
 tgcrypto
-aiohttp 3.9.1
+aiohttp==3.9.1
 yarl
 aiohttp-socks
