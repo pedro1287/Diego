@@ -281,7 +281,7 @@ def onmessage(update,bot:ObigramClient):
         #tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'diago8888'
+        tl_admin_user = 'JAGB2021'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -622,13 +622,13 @@ def onmessage(update,bot:ObigramClient):
         if '/nube1' in msgText:
             getUser = user_info
             if getUser:
-                getUser['moodle_host'] = "https://moodle.uclv.edu.cu/"
+                getUser['moodle_host'] = "https://eva.uo.edu.cu/"
                 getUser['uploadtype'] =  "calendar"
-                getUser['moodle_user'] = "noramirez"
-                getUser['moodle_password'] = "chircan*99"
+                getUser['moodle_user'] = " "
+                getUser['moodle_password'] = " "
                 getUser['moodle_repo_id'] = 4
                 getUser['token'] = "9b2d6f4022052344c8d8ebf02539ef06"
-                getUser['zips'] = 399
+                getUser['zips'] = 50
                 jdb.save_data_user(username,getUser)
                 jdb.save()
                 statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
