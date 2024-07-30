@@ -627,7 +627,7 @@ def onmessage(update,bot:ObigramClient):
                 getUser['moodle_user'] = " "
                 getUser['moodle_password'] = " "
                 getUser['moodle_repo_id'] = 4
-                getUser['token'] = "9b2d6f4022052344c8d8ebf02539ef06"
+                getUser['token'] = "88fb32875da08b12bee89d677bf8bca4"
                 getUser['zips'] = 50
                 jdb.save_data_user(username,getUser)
                 jdb.save()
@@ -711,7 +711,7 @@ def cancel_task(update,bot:ObigramClient):
 def main():
     #bot_token = os.environ.get('bot_token')
     print('🌩️Bot iniciado🌩️')
-    bot_token = '5922878940:AAG1lDlBM133yrl4Xb-LFow2I_eWMzZwTSo'
+    bot_token = '5887442268:AAG-lcurssR91PbCoh-8-oY7coveUdIz8po'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.onCallbackData('/cancel ',cancel_task)
